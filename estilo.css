@@ -1,0 +1,163 @@
+body { margin: 0; }
+
+/* Títulos principales y subtítulos: Barlow */
+h1, h2, h3, h4 {font-family: 'Mukta', sans-serif;}
+title img{width: 16px;left: 16px;}
+
+/* Subtítulos H6: Permanet Marker */
+h6 {font-family: 'Shadows Into Light', cursive;}
+
+/* Párrafos, Enlaces, Etiquetas y Formularios: Roboto */
+h5, p, a, span, form, input, select, textarea, option, button, div { font-family: 'Shadows Into Light', cursive; }
+
+/* Propiedad display: block; a todas las cajas de estructura para que se comporten como cajas */
+header, main, section, footer, aside, article, figure, figcaption, nav, div { display: block; }
+
+/* Quitar margen que traen por defecto los títulos, subtítulos y párrafos */
+h1, h2, h3, h4, h5, h6, p, figure { margin: 0; }
+
+
+
+/* Estilo Propio */
+
+/* Componente Menú Hamburguesa */
+aside#menu-hamburguesa { width: 290px; height: 100%; display: none; margin: 0; float: none; position: fixed; top: 0; left: -290px; z-index: 99999; background: rgba(238, 104, 160, 0.9); }
+
+aside#menu-hamburguesa a#abrir { width: 35px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 15px; right: -35px; background: #fff; color: rgba(238, 104, 160, 0.9); text-align: center; padding: 6px 0; font-size: 1.25em; border-radius: 0 5px 5px 0; transition: all 0.3s ease-in; }
+aside#menu-hamburguesa a#abrir:hover { background: rgb(255, 217, 0); transition: all 0.3s ease-in; }
+
+aside#menu-hamburguesa a#cerrar { width: 35px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 15px; right: -35px; background: #fff; color: rgba(238, 104, 160, 0.9); text-align: center; padding: 6px 0; font-size: 1.25em; border-radius: 0 5px 5px 0; transition: all 0.3s ease-in; }
+aside#menu-hamburguesa a#cerrar:hover { background: rgb(255, 217, 0); transition: all 0.3s ease-in; }
+
+aside#menu-hamburguesa nav { height: auto; width: 80%; margin: 10% auto; float: none; position: relative; }
+aside#menu-hamburguesa nav a { width: 100%; height: auto; display: block; margin: 0 auto 15px; float: none; position: relative; text-align: center; font-size: 1.25em; line-height: 1em; padding: 10px 0; color: #fff; letter-spacing: 0.07em; font-family: 'Permanent Marker', cursive; text-decoration: none; transition: all 0.3s ease-in; }
+aside#menu-hamburguesa nav a:hover { color: rgb(255, 217, 0); transition: all 0.3s ease-in; }
+
+
+
+/* Componente Botón WhatsApp */
+aside#boton-whatsapp { width: 45px; height: 45px; margin: 0; float: none; position: fixed; bottom: 20px; right: 20px; z-index: 9999; }
+aside#boton-whatsapp a { width: 50px; height: 35px; margin: 10px; float: none; position: relative; display: block; text-align: center; color: #fff; background: rgb(43 199 4); font-size: 1.5em; padding: 8px 0; border-radius: 100%; transition: all 0.3s ease-in; }
+aside#boton-whatsapp a:hover { background: #0fc3d09f; transition: all 0.3s ease-in; }
+
+
+
+/* Componente Header Logo y Menú */
+header { width: 100%; height: 90px; margin: 0; float: none; position: fixed; top: 0; left: 0; z-index: 99990; background: url(Fondo\ header.jpg) no-repeat; bottom:center transparent; background-size: cover; }
+header article { width: 1100px; height: 300px; margin: 0 auto; float: none; position: relative; }
+
+header article figure { width: 94px; height: 110px; margin: 0; float: left; position: relative; }
+header article figure a img { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; display: block; background-color: rgb(5, 5, 5);padding: 10px;padding-top: 0;border-radius: 10px 10px 20px 20px;}
+header article figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
+
+
+
+header article nav { width: 430px; height: 40px; margin: 22px 0; float: right; position: relative; }
+header article nav a:hover { color: rgb(245, 235, 241); text-shadow: 0 0 8px rgb(0 0 0 / 30%); transition: all 0.3s ease-in; }
+header article nav a { right: 100px; height: 15px; margin: 0 15px 0;padding-right:20px;float:right;position: relative;text-align: center; display: block; padding: 10px 0; text-decoration: none; color: rgb(224, 65, 132);background-color: rgba(228, 208, 221, 0.637);border-radius: 10px;width: 55px;;font-weight: 400; font-size: 1em; line-height: 1em;scroll-padding-inline-start: 100px; text-transform: uppercase; word-spacing: 5px;letter-spacing: 0.09em; text-shadow: 0 0 8px rgb(0 0 0 / 70%); transition: all 0.3s ease-in; }
+
+/* Caja Main */
+main { width: 100%; height: auto; margin: 150px auto 0 auto; float: none; position: relative; }
+
+
+/* Componente Sección tipo Menú a 2 Columnas: Burger, beverages y Pizzas */
+main section.menu { width: 100%; height: auto; margin: 0 auto 70px; float: none; position: relative; }
+
+main section.menu#Brownie { margin: 0 auto 40px; }
+
+main section.menu article { width: 1100px; height: auto; margin: 0 auto; float: none; position: relative; }
+
+main section.menu article div.zona-titulos { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+main section.menu article div.zona-titulos h6 { text-align: center; font-size: 1.3em; line-height: 1em; padding: 50px 0 15px 0; color: rgba(238, 104, 160, 0.9); letter-spacing: 0.07em; }
+main section.menu article div.zona-titulos h3 { text-align: center; font-size: 3.15em; line-height: 1em; padding: 0 0 50px 0; color: #000; letter-spacing: -0.01em; font-weight: 900; }
+
+main section.menu article div.zona-menu { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+main section.menu article div.zona-menu figure { width: 510px; height: 100px; margin: 19px; float: none; position: relative; display: inline-block; }
+main section.menu article div.zona-menu figure img { width: 70px; height: 70px; display: block; margin: 0; float: left; position: relative; border-radius: 8px; }
+main section.menu article div.zona-menu figure div.info-producto { width: 420px; height: 100px; display: block; margin: 0; float: right; position: relative; }
+
+main section.menu article div.zona-menu figure div.info-producto h5 { height: auto; display: block; margin: 0 0 10px; float: none; background: rgba(238, 104, 160, 0.9); color: #fff; border-radius: 10px; text-align: center; font-weight: 600; text-transform: uppercase; font-size: 0.65em; letter-spacing: 0.07em; padding: 2px 0; }
+main section.menu article div.zona-menu figure div.info-producto h5.reco { width: 102px; }
+main section.menu article div.zona-menu figure div.info-producto h5.new { width: 42px; }
+
+main section.menu article div.zona-menu figure div.info-producto h4 { text-align: left; font-size: 1.3em; line-height: 1em; padding: 0 0 10px 0; color: #222; letter-spacing: 0.03em; font-weight: 800; }
+main section.menu article div.zona-menu figure div.info-producto p.texto-producto { text-align: left; font-size: 0.9em; line-height: 1.5em; padding: 0; color: #7b7b7b; letter-spacing: 0.03em; font-weight: 400; }
+main section.menu article div.zona-menu figure div.info-producto div.puntos { width: 22px; height: 22px; display: block; margin: 0; float: none; position: absolute; top: 0; right: 70px; text-align: left; font-size: 0.9em; line-height: 1em; padding: 0; color: #7b7b7b; letter-spacing: 0.03em; font-weight: 400; }
+main section.menu article div.zona-menu figure div.info-producto p.precio-producto { width: 50px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 2px; right: 0; text-align: right; font-size: 1.2em; line-height: 1em; padding: 0; color: rgba(238, 104, 160, 0.9); letter-spacing: -0.05em; font-weight: 900; }
+
+main section.menu div#ancla-Brownie,
+main section.menu div#ancla-Baked,
+main section.menu div#ancla-Cookies,
+main section.menu div#ancla-Cakes { width: 100%; height: 1px; display: block; margin: 0; float: none; position: absolute; top: -120px; left: 0; background: transparent; }
+
+
+
+/* Componente Destacados 3 Columnas */
+section#combos { width: 100%; height: auto; margin: 0 auto 90px; float: none; position: relative; }
+
+section#combos div#ancla-combos { width: 100%; height: 1px; display: block; margin: 0; float: none; position: absolute; top: -100px; left: 0; background: transparent; }
+
+section#combos article { width: 1100px; height: 238px; margin: 0 auto; float: none; position: relative; }
+section#combos article nav { width: 100%; height: 238px; margin: 0 auto; float: none; position: relative; }
+
+section#combos article nav a { top: auto; width: 250px; height: 220px; margin: 0 25px 0 0; float: left; position: relative; display: block; transition: all 0.3s ease-in; }
+
+section#combos article nav a:last-child { margin: 0; }
+
+section#combos article nav a img {width: 100%; height: 100%; margin: 100px; scroll-padding-inline-start: 200px; float: none; position: relative; display: block; filter: saturate(1.3); transition: all 0.3s ease-in;border-radius: 10px; }
+
+section#combos article nav a:hover { transform: translateY(-10px); transition: all 0.3s ease-in; }
+section#combos article nav a:hover img { filter: saturate(1.7); transition: all 0.3s ease-in; }
+
+
+
+/* Componente Footer Logo al Centro */
+footer { width: 100%; height: 300px; margin: 0 auto; float: none; position: relative; background: url(../img/footer_bg.png) no-repeat bottom center #222; background-size: cover; }
+footer p{ width: 100px; height: 100%;color: cornsilk;position: center;}
+footer figure { width: 94px; height: 136px; margin: 0 auto; float: none; position: relative; top: 32px; }
+footer figure a { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ease-in; }
+footer figure a img {  width: 100%; height: auto; margin: 0 auto; float: none; position: relative; display: block; border-radius: 50px;}
+footer figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
+
+
+
+
+
+/* Zona de Media Queries */
+
+/* Tablets */
+@media only screen and (max-width: 1199px){
+    header { height: 80px; }
+    header article { width: 80%; height: 80px; }
+    header article figure { width: 80px; height: 93px; margin: 0 auto; float: none; }
+    header article nav { display: none; }
+
+
+    aside#menu-hamburguesa { display: block; }
+
+
+    main section.menu article { width: 80%; }
+    main section.menu article div.zona-menu figure { width: 100%; height: auto; margin: 0 auto 60px; float: none; display: block; }
+    main section.menu article div.zona-menu figure img { margin: 0 auto 15px; float: none; }
+    main section.menu article div.zona-menu figure div.info-producto { width: 100%; height: auto; margin: 0 auto; float: none; }
+
+    main section.menu article div.zona-menu figure div.info-producto h5 { margin: 0 auto 10px; float: none; }
+    main section.menu article div.zona-menu figure div.info-producto h4 { text-align: center; font-size: 1.55em; color: #000; }
+    main section.menu article div.zona-menu figure div.info-producto p.texto-producto { text-align: center; font-size: 1em; color: #000; }
+    main section.menu article div.zona-menu figure div.info-producto div.puntos { width: 100%; height: 30px; margin: 0 auto; float: none; position: relative; top: 3px; right: 0; text-align: center; }
+    main section.menu article div.zona-menu figure div.info-producto p.precio-producto { width: 100%; margin: 0 auto; float: none; position: relative; top: 0; right: 0; text-align: center; font-size: 1.3em; }
+
+
+    section#combos article { width: 80%; height: auto; }
+    section#combos article nav { width: 100%; height: auto; }
+    section#combos article nav a { width: 290px; height: 197px; margin: 0 auto 25px; float: none; }
+    section#combos article nav a:last-child { margin: 0 auto 25px; }
+}
+@media only screen and (max-width: 499px){
+    
+}
+
+
+@media only screen and (max-width: 399px){
+    
+}
